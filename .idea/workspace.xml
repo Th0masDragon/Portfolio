@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c504312a-6c0c-4816-b696-830ce874ed94" name="Changes" comment="CV MAJ 1" />
+    <list default="true" id="c504312a-6c0c-4816-b696-830ce874ed94" name="Changes" comment="CV BON">
+      <change beforePath="$PROJECT_DIR$/CV.html" beforeDir="false" afterPath="$PROJECT_DIR$/CV.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736688323439</updated>
-      <workItem from="1736688324448" duration="5408000" />
+      <workItem from="1736688324448" duration="5616000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -134,7 +136,31 @@
       <option name="project" value="LOCAL" />
       <updated>1736693784233</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="CV test 2">
+      <option name="closed" value="true" />
+      <created>1736693827535</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1736693827535</updated>
+    </task>
+    <task id="LOCAL-00010" summary="CV vide">
+      <option name="closed" value="true" />
+      <created>1736693944259</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1736693944259</updated>
+    </task>
+    <task id="LOCAL-00011" summary="CV BON">
+      <option name="closed" value="true" />
+      <created>1736693992985</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1736693992985</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +174,9 @@
     <MESSAGE value="presentation V1" />
     <MESSAGE value="CV test V1" />
     <MESSAGE value="CV MAJ 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="CV MAJ 1" />
+    <MESSAGE value="CV test 2" />
+    <MESSAGE value="CV vide" />
+    <MESSAGE value="CV BON" />
+    <option name="LAST_COMMIT_MESSAGE" value="CV BON" />
   </component>
 </project>
