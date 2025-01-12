@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c504312a-6c0c-4816-b696-830ce874ed94" name="Changes" comment="Fix css CV définitif">
-      <change afterPath="$PROJECT_DIR$/Projet_Ctf.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projet_Jam.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projet_Minecraft.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projet_Trains.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c504312a-6c0c-4816-b696-830ce874ed94" name="Changes" comment="Fix réseaux">
       <change beforePath="$PROJECT_DIR$/CV.html" beforeDir="false" afterPath="$PROJECT_DIR$/CV.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projet_Ctf.html" beforeDir="false" afterPath="$PROJECT_DIR$/Projet_Ctf.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projet_Jam.html" beforeDir="false" afterPath="$PROJECT_DIR$/Projet_Jam.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projet_Minecraft.html" beforeDir="false" afterPath="$PROJECT_DIR$/Projet_Minecraft.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projet_Trains.html" beforeDir="false" afterPath="$PROJECT_DIR$/Projet_Trains.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/presentation.html" beforeDir="false" afterPath="$PROJECT_DIR$/presentation.html" afterDir="false" />
     </list>
@@ -85,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736688323439</updated>
-      <workItem from="1736688324448" duration="7115000" />
+      <workItem from="1736688324448" duration="8003000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -207,7 +206,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736695301498</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Ajout des projets">
+      <option name="closed" value="true" />
+      <created>1736695630418</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1736695630418</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Fix réseaux">
+      <option name="closed" value="true" />
+      <created>1736695748042</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1736695748043</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +243,8 @@
     <MESSAGE value="Fix css CV v2" />
     <MESSAGE value="Fix css CV longueure" />
     <MESSAGE value="Fix css CV définitif" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix css CV définitif" />
+    <MESSAGE value="Ajout des projets" />
+    <MESSAGE value="Fix réseaux" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix réseaux" />
   </component>
 </project>
