@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c504312a-6c0c-4816-b696-830ce874ed94" name="Changes" comment="Jam fix V1">
+    <list default="true" id="c504312a-6c0c-4816-b696-830ce874ed94" name="Changes" comment="rajout texte Jam">
+      <change afterPath="$PROJECT_DIR$/images/ctfd-acceuil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ctfd-challenges.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ctfd-doc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projet_Ctf.html" beforeDir="false" afterPath="$PROJECT_DIR$/Projet_Ctf.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Projet_Jam.html" beforeDir="false" afterPath="$PROJECT_DIR$/Projet_Jam.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +87,7 @@
       <updated>1736688323439</updated>
       <workItem from="1736688324448" duration="8068000" />
       <workItem from="1736705559816" duration="3957000" />
-      <workItem from="1736721286673" duration="1712000" />
+      <workItem from="1736721286673" duration="2036000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -285,7 +289,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736722938639</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="rajout texte Jam">
+      <option name="closed" value="true" />
+      <created>1736723040394</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1736723040394</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,6 +328,7 @@
     <MESSAGE value="Serveur_Minecraft fin" />
     <MESSAGE value="Jam V1" />
     <MESSAGE value="Jam fix V1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Jam fix V1" />
+    <MESSAGE value="rajout texte Jam" />
+    <option name="LAST_COMMIT_MESSAGE" value="rajout texte Jam" />
   </component>
 </project>
