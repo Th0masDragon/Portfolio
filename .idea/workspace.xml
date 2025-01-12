@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c504312a-6c0c-4816-b696-830ce874ed94" name="Changes" comment="Ajout projet Ctf">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="c504312a-6c0c-4816-b696-830ce874ed94" name="Changes" comment="fix 1">
+      <change afterPath="$PROJECT_DIR$/images/N_pour_Naladia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/spawn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projet_Ctf.html" beforeDir="false" afterPath="$PROJECT_DIR$/Projet_Ctf.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +86,7 @@
       <updated>1736688323439</updated>
       <workItem from="1736688324448" duration="8068000" />
       <workItem from="1736705559816" duration="3957000" />
-      <workItem from="1736721286673" duration="2355000" />
+      <workItem from="1736721286673" duration="2769000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -301,14 +304,21 @@
       <option name="project" value="LOCAL" />
       <updated>1736723533186</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="fix 1">
+      <option name="closed" value="true" />
+      <created>1736723940855</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1736723940855</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Menu changé V1" />
     <MESSAGE value="Accueil V1" />
     <MESSAGE value="Concater modification" />
     <MESSAGE value="presentation V1" />
@@ -333,6 +343,7 @@
     <MESSAGE value="Jam fix V1" />
     <MESSAGE value="rajout texte Jam" />
     <MESSAGE value="Ajout projet Ctf" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout projet Ctf" />
+    <MESSAGE value="fix 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix 1" />
   </component>
 </project>
