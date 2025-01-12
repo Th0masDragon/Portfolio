@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c504312a-6c0c-4816-b696-830ce874ed94" name="Changes" comment="Serveur_Minecraft fin">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projet_Minecraft.html" beforeDir="false" afterPath="$PROJECT_DIR$/Projet_Minecraft.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ethanpres.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/trailer.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projet_Jam.html" beforeDir="false" afterPath="$PROJECT_DIR$/Projet_Jam.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +63,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\serve\Documents\IUT\Portfolio\images" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\serve\Documents\IUT\Portfolio\images" />
+    </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -81,7 +85,7 @@
       <updated>1736688323439</updated>
       <workItem from="1736688324448" duration="8068000" />
       <workItem from="1736705559816" duration="3957000" />
-      <workItem from="1736721286673" duration="789000" />
+      <workItem from="1736721286673" duration="1091000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -259,7 +263,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736714207420</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Serveur_Minecraft fin">
+      <option name="closed" value="true" />
+      <created>1736722150114</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1736722150114</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
