@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c504312a-6c0c-4816-b696-830ce874ed94" name="Changes" comment="CV test V1">
-      <change afterPath="$PROJECT_DIR$/CV.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projets.html" beforeDir="false" />
-    </list>
+    <list default="true" id="c504312a-6c0c-4816-b696-830ce874ed94" name="Changes" comment="CV MAJ 1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736688323439</updated>
-      <workItem from="1736688324448" duration="4443000" />
+      <workItem from="1736688324448" duration="4794000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -121,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736692778551</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="CV MAJ 1">
+      <option name="closed" value="true" />
+      <created>1736692830245</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1736692830245</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +139,7 @@
     <MESSAGE value="Concater modification" />
     <MESSAGE value="presentation V1" />
     <MESSAGE value="CV test V1" />
-    <option name="LAST_COMMIT_MESSAGE" value="CV test V1" />
+    <MESSAGE value="CV MAJ 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="CV MAJ 1" />
   </component>
 </project>
