@@ -29,9 +29,11 @@
                     </header>
                     <p> Jeu créer à la Code game Jam, plateformeur et pixel art !</p>
                 </div>
-                <span class="image object">
-										<img src="images/ethanpres.png" alt="" />
-									</span>
+                <img src="images/ethanpres.png" alt="Description de l'image" class="thumbnail" onclick="openModal('images/ethanpres.png')">
+                <div class="modal" id="modal">
+                    <span class="modal-close" onclick="closeModal()">&times;</span>
+                    <img id="modal-image" alt="Image agrandie">
+                </div>
                 <hr class="major" />
 
                 <h2>présentation du jeu</h2>
@@ -143,6 +145,19 @@
 <script src="assets/js/breakpoints.min.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
+<script>
+    function openModal(src) {
+        const modal = document.getElementById('modal');
+        const modalImage = document.getElementById('modal-image');
+        modal.style.display = 'flex';
+        modalImage.src = src;
+    }
 
+    // Fonction pour fermer la modale
+    function closeModal() {
+        const modal = document.getElementById('modal');
+        modal.style.display = 'none';
+    }
+</script>
 </body>
 </html>

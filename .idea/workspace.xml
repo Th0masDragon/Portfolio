@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c504312a-6c0c-4816-b696-830ce874ed94" name="Changes" comment="fix 1">
-      <change afterPath="$PROJECT_DIR$/images/N_pour_Naladia.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/spawn.png" afterDir="false" />
+    <list default="true" id="c504312a-6c0c-4816-b696-830ce874ed94" name="Changes" comment="Derniers ajouts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Projet_Ctf.html" beforeDir="false" afterPath="$PROJECT_DIR$/Projet_Ctf.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projet_Jam.html" beforeDir="false" afterPath="$PROJECT_DIR$/Projet_Jam.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projet_Minecraft.html" beforeDir="false" afterPath="$PROJECT_DIR$/Projet_Minecraft.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +87,7 @@
       <updated>1736688323439</updated>
       <workItem from="1736688324448" duration="8068000" />
       <workItem from="1736705559816" duration="3957000" />
-      <workItem from="1736721286673" duration="2769000" />
+      <workItem from="1736721286673" duration="3729000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -312,15 +313,29 @@
       <option name="project" value="LOCAL" />
       <updated>1736723940855</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="test ctf">
+      <option name="closed" value="true" />
+      <created>1736724099305</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1736724099305</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Derniers ajouts">
+      <option name="closed" value="true" />
+      <created>1736724329639</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1736724329639</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Accueil V1" />
-    <MESSAGE value="Concater modification" />
     <MESSAGE value="presentation V1" />
     <MESSAGE value="CV test V1" />
     <MESSAGE value="CV MAJ 1" />
@@ -344,6 +359,8 @@
     <MESSAGE value="rajout texte Jam" />
     <MESSAGE value="Ajout projet Ctf" />
     <MESSAGE value="fix 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix 1" />
+    <MESSAGE value="test ctf" />
+    <MESSAGE value="Derniers ajouts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Derniers ajouts" />
   </component>
 </project>

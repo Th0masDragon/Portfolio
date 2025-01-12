@@ -27,8 +27,11 @@
                     <h1>Projet Minecraft</h1>
                 </header>
 
-                <p>
-                </p>
+                <img src="images/spawn.png" alt="Description de l'image" class="thumbnail" onclick="openModal('images/spawn.png')">
+                <div class="modal" id="modal">
+                    <span class="modal-close" onclick="closeModal()">&times;</span>
+                    <img id="modal-image" alt="Image agrandie">
+                </div>
 
                 <!--	<span class="image main"><img src="images/pic11.jpg" alt="" /></span> -->
                 <h2>Commencement </h2>
@@ -138,6 +141,21 @@
 <script src="assets/js/breakpoints.min.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
+
+<script>
+    function openModal(src) {
+        const modal = document.getElementById('modal');
+        const modalImage = document.getElementById('modal-image');
+        modal.style.display = 'flex';
+        modalImage.src = src;
+    }
+
+    // Fonction pour fermer la modale
+    function closeModal() {
+        const modal = document.getElementById('modal');
+        modal.style.display = 'none';
+    }
+</script>
 
 </body>
 </html>

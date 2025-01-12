@@ -51,10 +51,14 @@
                     <li>Gagner en maîtrise sur l’utilisation de technologies modernes comme Docker et Flask dans un projet réel.</li>
                     <li>Découvrir les subtilités du framework CTFd, notamment dans la personnalisation des interfaces et la gestion des utilisateurs.</li>
                 </ul>
+                <img src="images/ctfd-acceuil.png" alt="Description de l'image" class="thumbnail" onclick="openModal('images/ctfd-acceuil.png')">
+                <img src="images/ctfd-challenges.png" alt="Description de l'image" class="thumbnail" onclick="openModal('images/ctfd-challenges.png')">
+                <img src="images/ctfd-doc.png" alt="Description de l'image" class="thumbnail" onclick="openModal('images/ctfd-doc.png')">
+                <div class="modal" id="modal">
+                    <span class="modal-close" onclick="closeModal()">&times;</span>
+                    <img id="modal-image" alt="Image agrandie">
+                </div>
 
-                <span><img src="images/ctfd-acceuil.png" alt="" /></span>
-                <span ><img src="images/ctfd-challenges.png" alt="" /></span>
-                <span><img src="images/ctfd-doc.png" alt="" /></span>-->
             </section>
 
         </div>
@@ -120,6 +124,20 @@
 <script src="assets/js/breakpoints.min.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
+<script>
+    function openModal(src) {
+        const modal = document.getElementById('modal');
+        const modalImage = document.getElementById('modal-image');
+        modal.style.display = 'flex';
+        modalImage.src = src;
+    }
+
+    // Fonction pour fermer la modale
+    function closeModal() {
+        const modal = document.getElementById('modal');
+        modal.style.display = 'none';
+    }
+</script>
 
 </body>
 </html>
