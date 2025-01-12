@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c504312a-6c0c-4816-b696-830ce874ed94" name="Changes" comment="CV BON">
+    <list default="true" id="c504312a-6c0c-4816-b696-830ce874ed94" name="Changes" comment="Fix css CV v2">
       <change beforePath="$PROJECT_DIR$/CV.html" beforeDir="false" afterPath="$PROJECT_DIR$/CV.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736688323439</updated>
-      <workItem from="1736688324448" duration="5616000" />
+      <workItem from="1736688324448" duration="6241000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -160,7 +160,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736693992985</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Fix css CV">
+      <option name="closed" value="true" />
+      <created>1736694020070</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1736694020070</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Fix css CV v2">
+      <option name="closed" value="true" />
+      <created>1736694684301</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1736694684301</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +193,8 @@
     <MESSAGE value="CV test 2" />
     <MESSAGE value="CV vide" />
     <MESSAGE value="CV BON" />
-    <option name="LAST_COMMIT_MESSAGE" value="CV BON" />
+    <MESSAGE value="Fix css CV" />
+    <MESSAGE value="Fix css CV v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix css CV v2" />
   </component>
 </project>
