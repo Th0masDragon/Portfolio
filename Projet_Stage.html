@@ -1,0 +1,182 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <title>Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body class="is-preload">
+
+
+<div id="wrapper">
+    <div id="main">
+        <div class="inner">
+            <header id="header">
+                <a href="index.html" class="logo"><strong>Portfolio</strong></a>
+                <ul class="icons">
+                    <li><a href="https://fr.linkedin.com/in/thomas-julien-servel-3b874a2ab?trk=public_post_feed-actor-image&original_referer=https%3A%2F%2Fwww.google.com%2F" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+                    <li><a href="https://github.com/Th0masDragon" class="icon brands fa-github"><span class="label">github</span></a></li>
+                </ul>
+            </header>
+
+
+            <section>
+                <header class="main">
+                    <h1>Stage chez Vitesco Technologies</h1>
+                </header>
+
+                <img src="images/montage_arduino.jpg" alt="Montage Arduino avec écran LCD" class="thumbnail" onclick="openModal('images/montage_arduino.jpg')">
+                <div class="modal" id="modal">
+                    <span class="modal-close" onclick="closeModal()">&times;</span>
+                    <img id="modal-image" alt="Image agrandie">
+                </div>
+
+                <h2>🧑‍💻 L'entreprise</h2>
+                <p>J'ai réalisé mon stage chez <strong>Vitesco Technologies</strong>, une entreprise du secteur automobile spécialisée dans les capteurs et l'électronique embarquée. J’ai intégré l’équipe HFA (Hands-Free Access), en charge du test et de la validation de capteurs intelligents pour véhicules.</p>
+
+                <hr class="major" />
+
+                <h2>🎯 Les objectifs</h2>
+                <p>Le défi : <em>automatiser et fiabiliser les tests de capteurs</em> utilisés dans les véhicules. J’ai eu à concevoir plusieurs outils pour piloter des alimentations, récupérer des données de capteurs, et simplifier le travail des ingénieurs via des interfaces graphiques Python et des montages Arduino.</p>
+
+                <hr class="major" />
+
+                <h2>🛠️ Projet 1 : Une IHM pour piloter l'alimentation</h2>
+                <p>Développement d’une <strong>interface graphique en Python</strong> connectée à une alimentation programmable. L’objectif était de réagir automatiquement à l’état de <strong>commutateurs physiques</strong> détectés par un Arduino, et de modifier la tension en conséquence.</p>
+                <ul>
+                    <li><strong>Technos :</strong> Python (PyQt6, pySerial, PyVISA), Arduino C++</li>
+                    <li><strong>Composants :</strong> Arduino Due, alimentation Keysight</li>
+                    <li><strong>Spécificité :</strong> L’IHM affiche l’état des switches, les logs d'action, et contrôle l’alimentation à distance</li>
+                </ul>
+                <img src="images/IHM_1.png" alt="Interface Python IHM Projet 1" class="thumbnail" onclick="openModal('images/IHM_1.png')">
+
+                <hr class="major" />
+
+                <h2>⚡ Projet 2 : Automatiser les cycles de tension</h2>
+                <p>Certains tests durent des heures, voire des jours. Il fallait donc créer un outil qui applique automatiquement des cycles de tension (ex. 2V pendant 30min, puis 4V pendant 20min, etc.).</p>
+                <ul>
+                    <li><strong>Ajouts :</strong> Chronomètre intégré, séquence automatisée, bouton STOP clignotant</li>
+                    <li><strong>Objectif :</strong> Supprimer les interventions humaines pendant les tests</li>
+                </ul>
+                <img src="images/IHM_2.png" alt="Interface de gestion d'alimentation longue durée" class="thumbnail" onclick="openModal('images/IHM_2.png')">
+
+                <hr class="major" />
+
+                <h2>🔗 Projet 3 : L'Arduino en mode passerelle LIN</h2>
+                <p>Ici, j’ai utilisé un <strong>Arduino Due</strong> pour faire passerelle entre un <strong>capteur automobile</strong> et un PC. Le projet nécessitait de comprendre et implémenter des protocoles comme le <strong>LIN</strong> et le <strong>monitoring série</strong>.</p>
+                <ul>
+                    <li>Gestion du <strong>protocole LIN</strong> (détection du break, envoi de trames)</li>
+                    <li>Affichage d’infos de debug sur <strong>écran LCD</strong></li>
+                    <li>Transmission bidirectionnelle avec changement de mode automatique</li>
+                </ul>
+                <img src="images/lin_lcd.jpg" alt="Affichage LCD avec debug Arduino" class="thumbnail" onclick="openModal('images/lin_lcd.jpg')">
+
+                <hr class="major" />
+
+                <h2>💡 Compétences développées</h2>
+                <ul>
+                    <li>Programmation embarquée en C++ avec Arduino (USART, interruption, LIN)</li>
+                    <li>Création d’interfaces graphiques en Python avec PyQt6</li>
+                    <li>Gestion de l’électronique (câblage, soudure, tests de capteurs)</li>
+                    <li>Communication en entreprise et gestion de mini-projets</li>
+                </ul>
+
+                <hr class="major" />
+
+                <h2>🎯 Ce que j’en retiens</h2>
+                <p>Ce stage m’a challengé autant sur le plan technique que personnel. J’ai découvert à quel point <strong>automatiser des processus</strong> en entreprise peut faire gagner du temps et éviter des erreurs critiques. J’ai aussi compris que coder pour un système réel, c’est un autre niveau : ici, ça ne pardonne pas. Une mauvaise tension ? Un capteur cramé. 😅</p>
+
+                <p>Et surtout, ça m’a donné envie de poursuivre dans les projets embarqués, sans perdre de vue ma volonté de <strong>gérer des projets techniques</strong> de bout en bout, plus tard.</p>
+
+                <hr class="major" />
+                <h2>📎 Liens</h2>
+                <ul>
+                    <li><a href="https://th0masdragon.github.io/Rapport_Stage.pdf">Rapport de stage complet (PDF)</a></li>
+                    <li><a href="https://github.com/Th0masDragon">Mon GitHub</a></li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+    <!-- Sidebar -->
+    <div id="sidebar">
+        <div class="inner">
+
+            <!-- Search -->
+            <section id="search" class="alt">
+                <form method="post" action="#">
+                    <input type="text" name="query" id="query" placeholder="Search" />
+                </form>
+            </section>
+
+            <!-- Menu -->
+            <nav id="menu">
+                <header class="major">
+                    <h2>Menu</h2>
+                </header>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="presentation.html">Présentation</a></li>
+                    <li><a href="CV.html">CV</a></li>
+                    <li>
+                        <span class="opener">Projets</span>
+                        <ul>
+                            <li><a href="Projet_Minecraft.html">Serveur Minecraft</a></li>
+                            <li><a href="Projet_Jam.html">Code game Jams</a></li>
+                            <li><a href="Projet_Ctf.html">Projet CTF</a></li>
+                            <li><a href="Projet_Stage.html">Stage chez Vitesco</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Section -->
+            <section>
+                <header class="major">
+                    <h2>Me contacter</h2>
+                </header>
+                <p>Vous êtes libre de me contacter via mail ou sur mon linkedin, plus d'information sur mon CV</p>
+                <ul class="contact">
+                    <li class="icon solid fa-envelope"><a href="#">servel.thomas@gmail.com</a></li>
+                    <li class="icon solid fa-phone">07 81 19 83 68</li>
+                </ul>
+            </section>
+
+            <!-- Footer -->
+            <footer id="footer">
+                <p class="copyright">Portfolio pour Thomas-Julien-Servel.</p>
+            </footer>
+
+        </div>
+    </div>
+
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+<script>
+    function openModal(src) {
+        const modal = document.getElementById('modal');
+        const modalImage = document.getElementById('modal-image');
+        modal.style.display = 'flex';
+        modalImage.src = src;
+    }
+
+    // Fonction pour fermer la modale
+    function closeModal() {
+        const modal = document.getElementById('modal');
+        modal.style.display = 'none';
+    }
+</script>
+
+</body>
+</html>
+
+
