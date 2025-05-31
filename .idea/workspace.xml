@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c504312a-6c0c-4816-b696-830ce874ed94" name="Changes" comment="update">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="c504312a-6c0c-4816-b696-830ce874ed94" name="Changes" comment="liens dans Apprentissage.html" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +88,7 @@
       <workItem from="1736721286673" duration="3729000" />
       <workItem from="1746177729671" duration="2600000" />
       <workItem from="1746192997198" duration="19000" />
-      <workItem from="1748723752693" duration="252000" />
+      <workItem from="1748723752693" duration="579000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -348,15 +346,29 @@
       <option name="project" value="LOCAL" />
       <updated>1748723907089</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Apprentissage liens">
+      <option name="closed" value="true" />
+      <created>1748724022635</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1748724022635</updated>
+    </task>
+    <task id="LOCAL-00034" summary="liens dans Apprentissage.html">
+      <option name="closed" value="true" />
+      <created>1748724319331</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1748724319331</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="CV MAJ 1" />
-    <MESSAGE value="CV test 2" />
     <MESSAGE value="CV vide" />
     <MESSAGE value="CV BON" />
     <MESSAGE value="Fix css CV" />
@@ -380,6 +392,8 @@
     <MESSAGE value="Derniers ajouts" />
     <MESSAGE value="ajoute stage, V1" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="Apprentissage liens" />
+    <MESSAGE value="liens dans Apprentissage.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="liens dans Apprentissage.html" />
   </component>
 </project>
