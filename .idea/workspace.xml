@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c504312a-6c0c-4816-b696-830ce874ed94" name="Changes" comment="ajoute stage, V1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c504312a-6c0c-4816-b696-830ce874ed94" name="Changes" comment="update">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +90,7 @@
       <workItem from="1736721286673" duration="3729000" />
       <workItem from="1746177729671" duration="2600000" />
       <workItem from="1746192997198" duration="19000" />
-      <workItem from="1748723752693" duration="115000" />
+      <workItem from="1748723752693" duration="252000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -340,14 +340,21 @@
       <option name="project" value="LOCAL" />
       <updated>1746178829428</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="update">
+      <option name="closed" value="true" />
+      <created>1748723907089</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1748723907089</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="CV test V1" />
     <MESSAGE value="CV MAJ 1" />
     <MESSAGE value="CV test 2" />
     <MESSAGE value="CV vide" />
@@ -372,6 +379,7 @@
     <MESSAGE value="test ctf" />
     <MESSAGE value="Derniers ajouts" />
     <MESSAGE value="ajoute stage, V1" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajoute stage, V1" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
