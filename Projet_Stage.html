@@ -32,69 +32,99 @@
                     <img id="modal-image" alt="Image agrandie">
                 </div>
 
-                <h2>L'entreprise</h2>
-                <p>J'ai réalisé mon stage chez <strong>Vitesco Technologies</strong>, une entreprise du secteur automobile spécialisée dans les capteurs et l'électronique embarquée. J’ai intégré l’équipe HFA (Hands-Free Access), en charge du test et de la validation de capteurs intelligents pour véhicules.</p>
+                <h2>L’entreprise</h2>
+                <p>J’ai réalisé mon stage chez <strong>Vitesco Technologies</strong>, une entreprise spécialisée dans l’électronique embarquée pour l’automobile, notamment les systèmes d'accès sans clé (HFA : Hands-Free Access). Intégré à l’équipe HFA sur le site de Foix, j’ai travaillé sur le développement d’outils de test pour les capteurs utilisant le protocole LIN. Un environnement technique exigeant, au cœur de l’industrie automobile.</p>
 
                 <hr class="major" />
 
                 <h2>Les objectifs</h2>
-                <p>Le défi : <em>automatiser et fiabiliser les tests de capteurs</em> utilisés dans les véhicules. J’ai eu à concevoir plusieurs outils pour piloter des alimentations, récupérer des données de capteurs, et simplifier le travail des ingénieurs via des interfaces graphiques Python et des montages Arduino.</p>
+                <p>Le stage visait à automatiser et fiabiliser les tests de capteurs via des interfaces logicielles Python et des montages Arduino. Trois grands projets ont structuré mon travail :</p>
+                <ul>
+                    <li>Créer une interface graphique Python pour piloter une alimentation via des commutateurs physiques.</li>
+                    <li>Automatiser des cycles de tension sur 24h+ pour des tests longue durée.</li>
+                    <li>Développer une passerelle série/LIN avec affichage sur écran LCD.</li>
+                </ul>
 
                 <hr class="major" />
 
-                <h2>Projet 1 : Une IHM pour piloter l'alimentation</h2>
-                <p>Développement d’une <strong>interface graphique en Python</strong> connectée à une alimentation programmable. L’objectif était de réagir automatiquement à l’état de <strong>commutateurs physiques</strong> détectés par un Arduino, et de modifier la tension en conséquence.</p>
+                <h2>Projet 1 – IHM Python & commutateurs Arduino</h2>
+                <p>L'objectif était de piloter automatiquement une alimentation programmable en fonction de l’état de plusieurs commutateurs physiques. Ces commutateurs, détectés par un <strong>Arduino Due</strong>, étaient connectés à un montage maison alimenté en 12V.</p>
+
                 <ul>
-                    <li><strong>Technos :</strong> Python (PyQt6, pySerial, PyVISA), Arduino C++</li>
-                    <li><strong>Composants :</strong> Arduino Due, alimentation Keysight</li>
-                    <li><strong>Spécificité :</strong> L’IHM affiche l’état des switches, les logs d'action, et contrôle l’alimentation à distance</li>
+                    <li>Arduino envoie l’état des commutateurs via USB au PC.</li>
+                    <li>L'IHM Python (PyQt6 + PyVISA) reçoit ces infos et ajuste l'alimentation Keysight (UB, UB_MIN) selon une logique prédéfinie.</li>
+                    <li>Fonctions intégrées : logs d’action, affichage d’état en temps réel, détection automatique des ports COM.</li>
                 </ul>
-                <img src="images/IHM1.jpg" alt="Interface Python IHM Projet 1" class="thumbnail" onclick="openModal('images/IHM_1.png')">
+
+                <p>Le tout devait être simple à utiliser par des techniciens non-informaticiens. J’ai donc ajouté une interface lisible et fonctionnelle, testée avec différents scénarios réels.</p>
+
+                <img src="images/IHM1.jpg" alt="Interface Python IHM Projet 1" class="thumbnail" onclick="openModal('images/IHM1.jpg')">
 
                 <hr class="major" />
 
-                <h2>Projet 2 : Automatiser les cycles de tension</h2>
-                <p>Certains tests durent des heures, voire des jours. Il fallait donc créer un outil qui applique automatiquement des cycles de tension (ex. 2V pendant 30min, puis 4V pendant 20min, etc.).</p>
+                <h2>Projet 2 – Cycles d'alimentation automatisés</h2>
+                <p>Les tests longue durée (jusqu’à 24h) nécessitaient une interface permettant d’enchaîner automatiquement des phases de tension (ex : 2V → 4V → 0V). J’ai donc développé une seconde IHM, totalement paramétrable par l'utilisateur.</p>
+
                 <ul>
-                    <li><strong>Ajouts :</strong> Chronomètre intégré, séquence automatisée, bouton STOP clignotant</li>
-                    <li><strong>Objectif :</strong> Supprimer les interventions humaines pendant les tests</li>
+                    <li>Choix des tensions (UB et UB_MIN), durée de chaque phase et nombre de cycles.</li>
+                    <li>Affichage du <strong>temps restant</strong> avec chronomètre en direct.</li>
+                    <li>Ajout d’un bouton STOP rouge clignotant à la fin du cycle.</li>
                 </ul>
-                <img src="images/IHM2.jpg" alt="Interface de gestion d'alimentation longue durée" class="thumbnail" onclick="openModal('images/IHM_2.png')">
+
+                <p>Ce projet m’a appris à structurer du code Python plus complexe, à gérer le temps avec précision (boucles d'attente, temporisation logicielle) et à fiabiliser une interface censée tourner sans interruption pendant plusieurs jours.</p>
+
+                <img src="images/IHM2.jpg" alt="Interface de gestion d'alimentation longue durée" class="thumbnail" onclick="openModal('images/IHM2.jpg')">
 
                 <hr class="major" />
 
-                <h2>Projet 3 : L'Arduino en mode passerelle LIN</h2>
-                <p>Ici, j’ai utilisé un <strong>Arduino Due</strong> pour faire passerelle entre un <strong>capteur automobile</strong> et un PC. Le projet nécessitait de comprendre et implémenter des protocoles comme le <strong>LIN</strong> et le <strong>monitoring série</strong>.</p>
+                <h2>Projet 3 – Arduino passerelle LIN</h2>
+                <p>Ce dernier projet m’a plongé dans le bas niveau : je devais créer une passerelle entre un capteur automobile et un PC, capable de fonctionner en deux modes :</p>
                 <ul>
-                    <li>Gestion du <strong>protocole LIN</strong> (détection du break, envoi de trames)</li>
-                    <li>Affichage d’infos de debug sur <strong>écran LCD</strong></li>
-                    <li>Transmission bidirectionnelle avec changement de mode automatique</li>
+                    <li><strong>Mode Monitoring</strong> : simple transmission série (capteur ↔ PC).</li>
+                    <li><strong>Mode LIN</strong> : envoi de trames LIN avec détection de break, synchronisation, et réponse du capteur.</li>
                 </ul>
-                <img src="images/Arduino_Solo.jpg" alt="Affichage LCD avec debug Arduino" class="thumbnail" onclick="openModal('images/lin_lcd.jpg')">
+
+                <p>Le tout s’affichait sur un petit <strong>écran LCD</strong> (LiquidCrystal). J’ai aussi géré un <strong>bouton physique</strong> pour basculer de mode. Côté code : configuration avancée de l’USART, interruption RXBRK, manipulation directe des registres du microcontrôleur.</p>
+
+                <p>Ce projet reste le plus technique : tout ne fonctionnait pas à 100 % (communication bidirectionnelle partiellement instable), mais l’architecture est fonctionnelle et testée.</p>
+
+                <img src="images/Arduino_Solo.jpg" alt="Affichage LCD avec debug Arduino" class="thumbnail" onclick="openModal('images/Arduino_Solo.jpg')">
+
+                <hr class="major" />
+
+                <h2>Difficultés rencontrées</h2>
+                <ul>
+                    <li><strong>Problèmes de stabilité du port série</strong> : ajout de délai, flush(), gestion d'erreurs.</li>
+                    <li><strong>Chronométrage imprécis</strong> : refonte de la gestion du temps avec QTimer et décomposition en phases.</li>
+                    <li><strong>Protocole LIN fragile</strong> : instabilité du timing, détection de break aléatoire, nécessitant de nombreuses itérations.</li>
+                    <li><strong>Adaptation de la logique</strong> en fonction des remarques client/technicien (usabilité de l’IHM).</li>
+                </ul>
 
                 <hr class="major" />
 
                 <h2>Compétences développées</h2>
                 <ul>
-                    <li>Programmation embarquée en C++ avec Arduino (USART, interruption, LIN)</li>
-                    <li>Création d’interfaces graphiques en Python avec PyQt6</li>
-                    <li>Gestion de l’électronique (câblage, soudure, tests de capteurs)</li>
-                    <li>Communication en entreprise et gestion de mini-projets</li>
+                    <li><strong>Programmation Python avancée :</strong> PyQt6, PyVISA, architecture événementielle, communication série USB.</li>
+                    <li><strong>C++ sur Arduino :</strong> interruptions série, gestion du protocole LIN, manipulation de registres (RXBRK, USART, etc.).</li>
+                    <li><strong>Montage électronique</strong> : alimentation, soudure, capteurs, câblage 12V et composants passifs.</li>
+                    <li><strong>Communication technique</strong> : écriture de documentation utilisateur, gestion de projet en autonomie, restitution au client.</li>
                 </ul>
 
                 <hr class="major" />
 
-                <h2>Ce que j’en retiens</h2>
-                <p>Ce stage m’a challengé autant sur le plan technique que personnel. J’ai découvert à quel point <strong>automatiser des processus</strong> en entreprise peut faire gagner du temps et éviter des erreurs critiques. J’ai aussi compris que coder pour un système réel, c’est un autre niveau : ici, ça ne pardonne pas. Une mauvaise tension ? Un capteur cramé. 😅</p>
+                <h2>Bilan personnel</h2>
+                <p>Ce stage m’a clairement fait progresser. J’ai vu la différence entre coder pour un exercice scolaire et coder pour un système réel, avec du matériel qui peut cramer si tu te rates 😅. Ce que j’ai préféré, c’est le fait d’être autonome, de devoir trouver des solutions concrètes, et d’avoir un vrai impact pour l’équipe.</p>
 
-                <p>Et surtout, ça m’a donné envie de poursuivre dans les projets embarqués, sans perdre de vue ma volonté de <strong>gérer des projets techniques</strong> de bout en bout, plus tard.</p>
+                <p>Je me suis aussi découvert un vrai intérêt pour l’automatisation, l’interfaçage machine, et la gestion complète de projets techniques, du câblage à l’interface utilisateur. Et même si je n’ai pas tout maîtrisé à 100 %, j’ai beaucoup appris à faire face à l’inconnu, documenter, tester et améliorer mes propres outils.</p>
 
                 <hr class="major" />
-                <h2>Liens</h2>
+                <h2>📎 Liens</h2>
                 <ul>
-                    <li><a href="Rapport_Stage.html">Rapport de stage complet (PDF)</a></li>
+                    <li><a href="Rapport_Stage.pdf"> Rapport de stage complet (PDF)</a></li>
                 </ul>
             </section>
+
+
         </div>
     </div>
 

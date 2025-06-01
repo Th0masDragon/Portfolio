@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c504312a-6c0c-4816-b696-830ce874ed94" name="Changes" comment="Update_img + CV + rapport">
-      <change afterPath="$PROJECT_DIR$/Rapport_Stage.html" afterDir="false" />
+    <list default="true" id="c504312a-6c0c-4816-b696-830ce874ed94" name="Changes" comment="Update stage + Rapport_Stage.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Projet_Stage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Projet_Stage.html" afterDir="false" />
     </list>
@@ -92,7 +91,7 @@
       <workItem from="1736721286673" duration="3729000" />
       <workItem from="1746177729671" duration="2600000" />
       <workItem from="1746192997198" duration="19000" />
-      <workItem from="1748723752693" duration="2981000" />
+      <workItem from="1748723752693" duration="4643000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -382,14 +381,21 @@
       <option name="project" value="LOCAL" />
       <updated>1748767719180</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Update stage + Rapport_Stage.html">
+      <option name="closed" value="true" />
+      <created>1748768262506</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1748768262506</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix css CV" />
     <MESSAGE value="Fix css CV v2" />
     <MESSAGE value="Fix css CV longueure" />
     <MESSAGE value="Fix css CV définitif" />
@@ -414,6 +420,7 @@
     <MESSAGE value="liens dans Apprentissage.html" />
     <MESSAGE value="Update sidebar" />
     <MESSAGE value="Update_img + CV + rapport" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update_img + CV + rapport" />
+    <MESSAGE value="Update stage + Rapport_Stage.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update stage + Rapport_Stage.html" />
   </component>
 </project>
