@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c504312a-6c0c-4816-b696-830ce874ed94" name="Changes" comment="update stage">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c504312a-6c0c-4816-b696-830ce874ed94" name="Changes" comment="update Apprentissage.html" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +88,7 @@
       <workItem from="1736721286673" duration="3729000" />
       <workItem from="1746177729671" duration="2600000" />
       <workItem from="1746192997198" duration="19000" />
-      <workItem from="1748723752693" duration="6620000" />
+      <workItem from="1748723752693" duration="6938000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -396,14 +394,21 @@
       <option name="project" value="LOCAL" />
       <updated>1748771164250</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="update Apprentissage.html">
+      <option name="closed" value="true" />
+      <created>1748773729075</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1748773729075</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix css CV longueure" />
     <MESSAGE value="Fix css CV définitif" />
     <MESSAGE value="Ajout des projets" />
     <MESSAGE value="Fix réseaux" />
@@ -428,6 +433,7 @@
     <MESSAGE value="Update_img + CV + rapport" />
     <MESSAGE value="Update stage + Rapport_Stage.html" />
     <MESSAGE value="update stage" />
-    <option name="LAST_COMMIT_MESSAGE" value="update stage" />
+    <MESSAGE value="update Apprentissage.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="update Apprentissage.html" />
   </component>
 </project>
