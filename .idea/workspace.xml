@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c504312a-6c0c-4816-b696-830ce874ed94" name="Changes" comment="Update stage + Rapport_Stage.html">
+    <list default="true" id="c504312a-6c0c-4816-b696-830ce874ed94" name="Changes" comment="update stage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projet_Stage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Projet_Stage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +90,7 @@
       <workItem from="1736721286673" duration="3729000" />
       <workItem from="1746177729671" duration="2600000" />
       <workItem from="1746192997198" duration="19000" />
-      <workItem from="1748723752693" duration="4643000" />
+      <workItem from="1748723752693" duration="6620000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -389,14 +388,21 @@
       <option name="project" value="LOCAL" />
       <updated>1748768262506</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="update stage">
+      <option name="closed" value="true" />
+      <created>1748771164250</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1748771164250</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix css CV v2" />
     <MESSAGE value="Fix css CV longueure" />
     <MESSAGE value="Fix css CV définitif" />
     <MESSAGE value="Ajout des projets" />
@@ -421,6 +427,7 @@
     <MESSAGE value="Update sidebar" />
     <MESSAGE value="Update_img + CV + rapport" />
     <MESSAGE value="Update stage + Rapport_Stage.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update stage + Rapport_Stage.html" />
+    <MESSAGE value="update stage" />
+    <option name="LAST_COMMIT_MESSAGE" value="update stage" />
   </component>
 </project>
