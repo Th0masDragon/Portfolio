@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c504312a-6c0c-4816-b696-830ce874ed94" name="Changes" comment="update Apprentissage.html">
-      <change beforePath="$PROJECT_DIR$/CV.html" beforeDir="false" afterPath="$PROJECT_DIR$/CV.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation.html" beforeDir="false" afterPath="$PROJECT_DIR$/presentation.html" afterDir="false" />
+    <list default="true" id="c504312a-6c0c-4816-b696-830ce874ed94" name="Changes" comment="test inter-liens">
+      <change afterPath="$PROJECT_DIR$/images/Vitesco.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Apprentissage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Apprentissage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projet_Stage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Projet_Stage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +35,12 @@
     &quot;assignee&quot;: &quot;Th0masDragon&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Th0masDragon/Portfolio.git",
-    "accountId": "844a988a-d844-46f2-915f-95b107a40e42"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Th0masDragon/Portfolio.git&quot;,
+    &quot;accountId&quot;: &quot;844a988a-d844-46f2-915f-95b107a40e42&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -46,29 +49,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/depinfo/Documents/web/public_html/TD3",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/depinfo/Documents/web/public_html/TD3&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\serve\Documents\IUT\Portfolio\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\serve\PhpstormProjects\Portfolio\images" />
       <recent name="C:\Users\serve\Documents\IUT\Portfolio\images" />
     </key>
   </component>
@@ -94,7 +98,10 @@
       <workItem from="1746177729671" duration="2600000" />
       <workItem from="1746192997198" duration="19000" />
       <workItem from="1748723752693" duration="6938000" />
-      <workItem from="1748794392172" duration="361000" />
+      <workItem from="1748794392172" duration="2971000" />
+      <workItem from="1748811786891" duration="4000" />
+      <workItem from="1748897138638" duration="640000" />
+      <workItem from="1748982573327" duration="2349000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -408,14 +415,21 @@
       <option name="project" value="LOCAL" />
       <updated>1748773729075</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="test inter-liens">
+      <option name="closed" value="true" />
+      <created>1748794976313</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1748794976313</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix css CV définitif" />
     <MESSAGE value="Ajout des projets" />
     <MESSAGE value="Fix réseaux" />
     <MESSAGE value="push v1" />
@@ -440,6 +454,7 @@
     <MESSAGE value="Update stage + Rapport_Stage.html" />
     <MESSAGE value="update stage" />
     <MESSAGE value="update Apprentissage.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="update Apprentissage.html" />
+    <MESSAGE value="test inter-liens" />
+    <option name="LAST_COMMIT_MESSAGE" value="test inter-liens" />
   </component>
 </project>
