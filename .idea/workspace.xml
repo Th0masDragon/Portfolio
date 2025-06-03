@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c504312a-6c0c-4816-b696-830ce874ed94" name="Changes" comment="last push psk flemme">
+    <list default="true" id="c504312a-6c0c-4816-b696-830ce874ed94" name="Changes" comment="push presentation.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/presentation.html" beforeDir="false" afterPath="$PROJECT_DIR$/presentation.html" afterDir="false" />
     </list>
@@ -98,7 +98,7 @@
       <workItem from="1748794392172" duration="2971000" />
       <workItem from="1748811786891" duration="4000" />
       <workItem from="1748897138638" duration="640000" />
-      <workItem from="1748982573327" duration="3835000" />
+      <workItem from="1748982573327" duration="5579000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -428,14 +428,21 @@
       <option name="project" value="LOCAL" />
       <updated>1748987406927</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="push presentation.html">
+      <option name="closed" value="true" />
+      <created>1748988355557</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1748988355557</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix réseaux" />
     <MESSAGE value="push v1" />
     <MESSAGE value="Serveur_Minecraft V1" />
     <MESSAGE value="Serveur_Minecraft fix 1" />
@@ -460,6 +467,7 @@
     <MESSAGE value="update Apprentissage.html" />
     <MESSAGE value="test inter-liens" />
     <MESSAGE value="last push psk flemme" />
-    <option name="LAST_COMMIT_MESSAGE" value="last push psk flemme" />
+    <MESSAGE value="push presentation.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="push presentation.html" />
   </component>
 </project>
